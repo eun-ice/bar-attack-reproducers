@@ -1,0 +1,63 @@
+== attack_obstacle_friendlyline
+  master   info shooters(hits/moved)=13h/87m 12h/96m 12h/146m 11h/182m 13h/41m hitting=5 stalled=0
+  pr3242   info shooters(hits/moved)=0h/14m 0h/13m 0h/13m 13h/16m 0h/14m hitting=1 stalled=4
+== attack_obstacle_friendlyline_luger
+  master   info shooters(hits/moved)=7h/3m 7h/3m 7h/4m 7h/3m 7h/4m hitting=5 stalled=0
+  pr3242   info shooters(hits/moved)=7h/2m 7h/2m 7h/2m 7h/2m 7h/2m hitting=5 stalled=0
+== attack_obstacle_friendlyline_off-120
+  master   info shooters(hits/moved)=0h/544m 0h/606m 0h/528m 1h/614m 0h/536m hitting=1 stalled=0
+  pr3242   info shooters(hits/moved)=0h/510m 0h/501m 0h/560m 0h/580m 0h/540m hitting=0 stalled=0
+== attack_obstacle_friendlyline_off-240
+  master   info no result line
+  pr3242   info no result line
+== attack_obstacle_friendlyline_off120
+  master   info shooters(hits/moved)=14h/13m 14h/16m 14h/14m 14h/13m 14h/14m hitting=5 stalled=0
+  pr3242   info shooters(hits/moved)=0h/14m 0h/13m 14h/16m 0h/14m 0h/13m hitting=1 stalled=4
+== attack_obstacle_friendlyline_off240
+  master   info shooters(hits/moved)=14h/7m 14h/9m 14h/9m 14h/9m 14h/11m hitting=5 stalled=0
+  pr3242   info shooters(hits/moved)=14h/14m 14h/16m 14h/13m 14h/13m 14h/14m hitting=5 stalled=0
+== attack_obstacle_rock_holdpos
+  master   FAIL shooters(hits/moved)=0h/20m 0h/10m 9h/391m 8h/380m 0h/31m hitting=2 stalled=3
+  pr3242   PASS shooters(hits/moved)=1h/354m 0h/327m 7h/406m 9h/365m 9h/384m hitting=4 stalled=0
+== attack_obstacle_rock_maneuver
+  master   FAIL shooters(hits/moved)=0h/27m 7h/427m 0h/28m 0h/10m 9h/399m hitting=2 stalled=3
+  pr3242   PASS shooters(hits/moved)=0h/347m 6h/393m 0h/340m 9h/352m 8h/399m hitting=3 stalled=0
+== attack_obstacle_wall_armamd
+  master   PASS shooters(hits/moved)=0h/165m 12h/131m 12h/109m 10h/210m 12h/136m hitting=4
+  pr3242   PASS shooters(hits/moved)=0h/116m 0h/172m 13h/119m 13h/104m 11h/158m hitting=3
+== attack_obstacle_wall_armbanth
+  master   FAIL moved=[6, 77, 115, 44, 69] hits=5
+  pr3242   PASS moved=[0, 0, 0, 0, 0] hits=0
+== attack_obstacle_wall_armfort
+  master   PASS shooters(hits/moved)=11h/192m 14h/81m 12h/126m 2h/137m 10h/199m hitting=5
+  pr3242   PASS shooters(hits/moved)=13h/82m 13h/110m 12h/111m 0h/128m 13h/111m hitting=4
+== attack_obstacle_wall_corkorg
+  master   FAIL moved=[156, 151, 139, 147, 121] hits=5
+  pr3242   PASS moved=[0, 0, 0, 0, 0] hits=0
+== corcom_tick_attack_stall
+  master   FAIL stalled=true moved=15.7 dist=319.6 projectiles=0 targetAlive=true
+  pr3242   FAIL stalled=true moved=15.7 dist=319.6 projectiles=0 targetAlive=true
+== corcom_tick_attack_stall_fireatwill
+  master   FAIL stalled=true moved=15.7 dist=319.6 projectiles=0 targetAlive=true
+  pr3242   FAIL stalled=true moved=15.7 dist=319.6 projectiles=0 targetAlive=true
+== corcom_tick_attack_stall_second
+  master   FAIL stalled=true moved=89.1 dist=315.0 projectiles=0 targetAlive=true
+  pr3242   FAIL stalled=true moved=89.1 dist=315.0 projectiles=0 targetAlive=true
+== corcom_tick_move
+  master   PASS order=move moved=314.2 dist=22.9
+  pr3242   PASS order=move moved=314.5 dist=22.2
+== mship_geo_close
+  master   FAIL frame=1800 shipsFired=2/4 moved=[0, 0, 0, 0] tryTarget=['false', 'false', 'false', 'false']
+  pr3242   PASS frame=1800 shipsFired=4/4 moved=[0, 0, 144, 171] tryTarget=['true', 'true', 'true', 'true']
+== mship_geo_far
+  master   FAIL frame=1800 shipsFired=0/4 moved=[0, 0, 58, 236] tryTarget=['false', 'false', 'false', 'false']
+  pr3242   PASS frame=1800 shipsFired=4/4 moved=[139, 201, 278, 359] tryTarget=['true', 'true', 'true', 'true']
+== mship_geo_far_unit
+  master   PASS frame=1800 shipsFired=4/4 moved=[92, 173, 235, 340] tryTarget=['true', 'true', 'true', 'true']
+  pr3242   PASS frame=1800 shipsFired=4/4 moved=[92, 173, 234, 342] tryTarget=['true', 'true', 'true', 'true']
+== rocko_slope_attack
+  master   FAIL frame=1440 phase=afterstop projectiles=0/2/0 moved=0.0
+  pr3242   PASS frame=1440 phase=afterstop projectiles=5/2/0 moved=0.0
+== rocko_slope_attack_holdpos
+  master   FAIL frame=1440 phase=afterstop projectiles=0/2/0 moved=0.0
+  pr3242   PASS frame=1440 phase=afterstop projectiles=5/2/0 moved=0.0

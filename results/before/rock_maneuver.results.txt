@@ -1,0 +1,16 @@
+Error 'No such file or directory' getting readlink() for file '/tmp/claude-1000/-home-aron-Projects-bar/363876ba-4757-4d36-b386-6b658d218051/scratchpad/data-before/games/Beyond-All-Reason.sdd'
+Error 'No such file or directory' getting readlink() for file '/tmp/claude-1000/-home-aron-Projects-bar/363876ba-4757-4d36-b386-6b658d218051/scratchpad/data-before/games/Beyond-All-Reason.sdd'
+Error 'No such file or directory' getting readlink() for file '/tmp/claude-1000/-home-aron-Projects-bar/363876ba-4757-4d36-b386-6b658d218051/scratchpad/data-before/games/Beyond-All-Reason.sdd'
+key "AdvSky" is deprecated
+Error: removed ceg_test_projectile_unit_ceg_test_projectile weaponDef, missing model
+could not find FeatureDef "corfast_dead"
+could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+ATTACK_OBSTACLE_SCENARIO_READY scenario=rock movestate=1 units=19
+ATTACK_OBSTACLE_VALIDATION_START attackers=5 target=22694
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=1 attacker=600 target=22694 targetHits=8 otherHits=4 moved=400.4 forward=329.3 lateral=227.8 movedAfterFirstHit=0.0 movedLast60Frames=0.0 distToTarget=273.4 start=662.2,2171.3 end=919.7,2478.0 heading=0->-1165 targetPos=707.1,2649.7 command=20 commandTarget=22694
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=1 attacker=11120 target=22694 targetHits=1 otherHits=11 moved=352.4 forward=307.9 lateral=171.4 movedAfterFirstHit=12.1 movedLast60Frames=0.0 distToTarget=235.4 start=685.1,2180.9 end=870.7,2480.5 heading=0->151 targetPos=707.1,2649.7 command=20 commandTarget=22694
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=1 attacker=11485 target=22694 targetHits=0 otherHits=0 moved=11.3 forward=8.6 lateral=7.4 movedAfterFirstHit=-1.0 movedLast60Frames=0.0 distToTarget=439.7 start=698.2,2201.6 end=705.8,2210.0 heading=0->16123 targetPos=707.1,2649.7 command=20 commandTarget=22694
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=1 attacker=24084 target=22694 targetHits=7 otherHits=4 moved=361.2 forward=299.9 lateral=201.4 movedAfterFirstHit=0.0 movedLast60Frames=0.0 distToTarget=249.3 start=669.5,2204.5 end=895.4,2486.4 heading=0->86 targetPos=707.1,2649.7 command=20 commandTarget=22694
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=1 attacker=24291 target=22694 targetHits=0 otherHits=0 moved=14.5 forward=-0.6 lateral=14.5 movedAfterFirstHit=-1.0 movedLast60Frames=0.0 distToTarget=427.1 start=687.9,2223.9 end=673.4,2224.0 heading=0->-532 targetPos=707.1,2649.7 command=20 commandTarget=22694

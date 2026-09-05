@@ -1,0 +1,59 @@
+[game]
+{
+	mapname=Quicksilver Remake 1.24;
+	gametype=Beyond All Reason $VERSION;
+	myplayername=RockoSlopeStallReproducer;
+	ishost=1;
+	hostip=127.0.0.1;
+	hostport=0;
+	startpostype=0;
+	nohelperais=0;
+	recorddemo=0;
+
+	[modoptions]
+	{
+		rockoslopestallreproducer=1;
+		rockoslopeattack=1;
+		rockoslopemovestate=0;
+		deathmode=neverend;
+	}
+
+	[allyteam0]
+	{
+		numallies=0;
+	}
+	[allyteam1]
+	{
+		numallies=0;
+	}
+
+	[team0]
+	{
+		teamleader=0;
+		allyteam=0;
+		startposx=5024;
+		startposz=3264;
+	}
+	[team1]
+	{
+		teamleader=0;
+		allyteam=1;
+		startposx=4747;
+		startposz=3424;
+	}
+
+	[player0]
+	{
+		team=0;
+		name=RockoSlopeStallReproducer;
+	}
+
+	[ai0]
+	{
+		shortname=NullAI;
+		name=Targets;
+		version=0.1;
+		team=1;
+		host=0;
+	}
+}

@@ -1,0 +1,18 @@
+Error: [SetConfigInt] key "AdvSky" is deprecated
+Error: [GetFeatureDef] could not find FeatureDef "corfast_dead"
+Error: [GetFeatureDef] could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+ROCKO_SLOPE_STALL_SCENARIO_READY attacker=20945 target=4746.9,89.6,3424.0 raisePoint=5127.5,194.1,2877.6 attack=true movestate=0
+ROCKO_SLOPE_STALL_RESULT frame=120 phase=settarget projectiles=0/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=240 phase=settarget projectiles=0/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=360 phase=settarget projectiles=0/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=480 phase=settarget projectiles=0/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=600 phase=groundattack projectiles=0/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=5128,194,2878 muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=720 phase=groundattack projectiles=0/1/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=5128,194,2878 muzzle=5017.6,218.4,3253.9 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=840 phase=afterstop projectiles=0/2/0 command=nil moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5017.6,218.4,3253.9 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=960 phase=afterstop projectiles=0/2/0 command=nil moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5017.6,218.4,3253.9 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=1080 phase=afterstop projectiles=0/2/0 command=nil moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=1200 phase=afterstop projectiles=0/2/0 command=nil moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=1320 phase=afterstop projectiles=0/2/0 command=nil moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false
+ROCKO_SLOPE_STALL_RESULT frame=1440 phase=afterstop projectiles=0/2/0 command=nil moved=0.0 distToTarget=320.0 weaponTarget=- muzzle=5026.9,206.3,3273.8 muzzleLOFtoSetTarget=false

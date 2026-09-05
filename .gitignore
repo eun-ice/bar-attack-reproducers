@@ -1,0 +1,10 @@
+# engine write dirs and raw run output; the *.results.txt extracts and summaries are kept
+data*/
+results/**/*.log
+results/**/*.infolog.txt
+results-stack/*.log
+results-stack/*.infolog.txt
+results-probe/*.log
+results-probe/*.infolog.txt
+record-all.log
+*.zip

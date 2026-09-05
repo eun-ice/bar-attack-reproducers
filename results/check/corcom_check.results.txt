@@ -1,0 +1,23 @@
+key "AdvSky" is deprecated
+could not find FeatureDef "corfast_dead"
+could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+CORCOM_TICK_STALL_SCENARIO_READY scenario=1 order=attack firestate=0 movestate=0 attacker=21744 pos=3452.0,176.5,764.0 heading=0 range=300 liveRange=300 moveDef=commanderbot
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil muzzle=3461.8,204.9,801.6]
+w3[test=false range=false try=false lof=true tgtType=0 tgt=nil 

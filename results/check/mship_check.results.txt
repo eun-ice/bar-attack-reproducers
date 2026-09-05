@@ -1,0 +1,87 @@
+key "AdvSky" is deprecated
+could not find FeatureDef "corfast_dead"
+could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+MSHIP_GEO_SCENARIO_READY geo=268 geoPos=10424.0,303.9,6808.0 ships=26535,29299,14729,15359
+MSHIP_GEO_ATTACK_ISSUED mode=ground params=10416.7998,303.889679,6813.2002
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=false reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=0 testRange=false tryTarget=false canFire=false reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=false reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150
+weaponTarget=unit:268 testRange=false tryTarget=false canFire=true reloadFrame=0 projectiles=0 geoHealth=4150

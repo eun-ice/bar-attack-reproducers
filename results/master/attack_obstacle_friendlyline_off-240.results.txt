@@ -1,0 +1,23 @@
+Error: [SetConfigInt] key "AdvSky" is deprecated
+Error: [GetFeatureDef] could not find FeatureDef "corfast_dead"
+Error: [GetFeatureDef] could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:125: Attack obstacle reproducer: friendly-line target spot is in water
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:125: Attack obstacle reproducer: friendly-line target spot is in water"
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:212: Attack obstacle reproducer could not find its Fatboy target
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:212: Attack obstacle reproducer could not find its Fatboy target"
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:281: [GetUnitPosition] unitID (arg #1) not a number
+Error: [LuaRules::RunCallInTraceback] error=2 (LUA_ERRRUN) callin=GameFrame trace=[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:228: [GetUnitPosition] unitID (arg #1) not a number
+[Game::ClientReadNet][LOGMSG] sender="AttackObstacleReproducer" string="[Internal Lua error: Call failure] [string "LuaRules/Gadgets/dbg_attack_obstacle_reproducer.lua"]:228: [GetUnitPosition] unitID (arg #1) not a number

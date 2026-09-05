@@ -1,0 +1,13 @@
+Error 'No such file or directory' getting readlink() for file '/tmp/claude-1000/-home-aron-Projects-bar/363876ba-4757-4d36-b386-6b658d218051/scratchpad/data-after/games/Beyond-All-Reason.sdd'
+key "AdvSky" is deprecated
+Error: removed ceg_test_projectile_unit_ceg_test_projectile weaponDef, missing model
+could not find FeatureDef "corfast_dead"
+could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+ROCKO_SLOPE_STALL_SCENARIO_READY attacker=14080 target=4746.9,89.6,3424.0 raisePoint=5127.5,194.1,2877.6 attack=true movestate=1
+ROCKO_SLOPE_STALL_RESULT frame=120 phase=settarget projectiles=1/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=4747,90,3424 muzzle=5020.4,215.7,3276.1 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=240 phase=settarget projectiles=2/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=4747,90,3424 muzzle=5020.4,215.7,3276.1 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=360 phase=settarget projectiles=3/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=4747,90,3424 muzzle=5020.4,215.7,3276.1 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=480 phase=settarget projectiles=4/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=4747,90,3424 muzzle=5020.4,215.7,3276.1 muzzleLOFtoSetTarget=true
+ROCKO_SLOPE_STALL_RESULT frame=600 phase=groundattack projectiles=5/0/0 command=20 moved=0.0 distToTarget=320.0 weaponTarget=5128,194,2878 muzzle=5020.4,215.7,3276.1 muzzleLOFtoSetTarget=true

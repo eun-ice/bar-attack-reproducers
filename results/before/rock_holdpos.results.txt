@@ -1,0 +1,14 @@
+Error 'No such file or directory' getting readlink() for file '/tmp/claude-1000/-home-aron-Projects-bar/363876ba-4757-4d36-b386-6b658d218051/scratchpad/data-before/games/Beyond-All-Reason.sdd'
+key "AdvSky" is deprecated
+Error: removed ceg_test_projectile_unit_ceg_test_projectile weaponDef, missing model
+could not find FeatureDef "corfast_dead"
+could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+ATTACK_OBSTACLE_SCENARIO_READY scenario=rock movestate=0 units=19
+ATTACK_OBSTACLE_VALIDATION_START attackers=5 target=26247
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=2447 target=26247 targetHits=8 otherHits=2 moved=399.2 forward=352.0 lateral=188.4 movedAfterFirstHit=6.7 movedLast60Frames=0.0 distToTarget=228.1 start=662.2,2171.3 end=882.7,2504.2 heading=0->381 targetPos=707.1,2649.7 command=20 commandTarget=26247
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=9728 target=26247 targetHits=7 otherHits=6 moved=387.1 forward=325.2 lateral=210.1 movedAfterFirstHit=0.0 movedLast60Frames=0.0 distToTarget=242.7 start=669.5,2204.5 end=906.2,2510.8 heading=0->-2023 targetPos=707.1,2649.7 command=20 commandTarget=26247
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=14998 target=26247 targetHits=0 otherHits=0 moved=14.2 forward=-0.6 lateral=14.2 movedAfterFirstHit=-1.0 movedLast60Frames=0.0 distToTarget=427.1 start=687.9,2223.9 end=673.7,2224.0 heading=0->-719 targetPos=707.1,2649.7 command=20 commandTarget=26247
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=30910 target=26247 targetHits=2 otherHits=8 moved=331.6 forward=290.3 lateral=160.2 movedAfterFirstHit=18.1 movedLast60Frames=0.0 distToTarget=224.9 start=698.2,2201.6 end=864.1,2488.7 heading=0->-16 targetPos=707.1,2649.7 command=20 commandTarget=26247
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=31313 target=26247 targetHits=1 otherHits=13 moved=395.8 forward=323.4 lateral=228.2 movedAfterFirstHit=5.5 movedLast60Frames=0.0 distToTarget=270.8 start=685.1,2180.9 end=928.2,2493.3 heading=0->-1307 targetPos=707.1,2649.7 command=20 commandTarget=26247

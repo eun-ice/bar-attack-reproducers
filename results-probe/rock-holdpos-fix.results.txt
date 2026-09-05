@@ -1,0 +1,48 @@
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/aimfrom-estimate/close-in/data-rock-new/games/Beyond-All-Reason.sdd'
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/aimfrom-estimate/close-in/data-rock-new/games/Beyond-All-Reason.sdd'
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/aimfrom-estimate/close-in/data-rock-new/games/Beyond-All-Reason.sdd'
+key "AdvSky" is deprecated
+Error: removed ceg_test_projectile_unit_ceg_test_projectile weaponDef, missing model
+could not find FeatureDef "corfast_dead"
+could not find FeatureDef "corhack_dead"
+Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+Failed to load font face from fonts/FreeSansBold.otf, could not open file.
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9194: attempt to call field 'CreateShader' (a nil value)
+unknown skirmish AI   specified
+ATTACK_OBSTACLE_SCENARIO_READY scenario=rock movestate=0 units=19
+ATTACK_OBSTACLE_VALIDATION_START attackers=5 target=14813
+ATTACK_OBSTACLE_DIAG frame=200 attacker=4312 dist=435.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=29.6 hits=0
+ATTACK_OBSTACLE_DIAG frame=200 attacker=5926 dist=444.3 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=active speed=1.67 muzzleAboveGround=27.7 hits=0
+ATTACK_OBSTACLE_DIAG frame=200 attacker=10943 dist=419.8 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=-1.5 hits=0
+ATTACK_OBSTACLE_DIAG frame=200 attacker=17294 dist=430.0 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=1 progress=active speed=1.67 muzzleAboveGround=35.2 hits=0
+ATTACK_OBSTACLE_DIAG frame=200 attacker=24998 dist=437.6 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=active speed=1.67 muzzleAboveGround=31.1 hits=0
+ATTACK_OBSTACLE_DIAG frame=300 attacker=4312 dist=435.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=29.6 hits=0
+ATTACK_OBSTACLE_DIAG frame=300 attacker=5926 dist=388.0 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=1 progress=active speed=1.66 muzzleAboveGround=33.7 hits=0
+ATTACK_OBSTACLE_DIAG frame=300 attacker=10943 dist=419.8 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=11.0 hits=0
+ATTACK_OBSTACLE_DIAG frame=300 attacker=17294 dist=343.7 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=1 progress=active speed=1.59 muzzleAboveGround=28.7 hits=0
+ATTACK_OBSTACLE_DIAG frame=300 attacker=24998 dist=365.9 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=1 progress=active speed=1.66 muzzleAboveGround=35.9 hits=0
+ATTACK_OBSTACLE_DIAG frame=400 attacker=4312 dist=435.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=29.6 hits=0
+ATTACK_OBSTACLE_DIAG frame=400 attacker=5926 dist=260.4 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=active speed=1.39 muzzleAboveGround=37.9 hits=0
+ATTACK_OBSTACLE_DIAG frame=400 attacker=10943 dist=419.8 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=6.5 hits=0
+ATTACK_OBSTACLE_DIAG frame=400 attacker=17294 dist=227.3 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=31.3 hits=0
+ATTACK_OBSTACLE_DIAG frame=400 attacker=24998 dist=243.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=1 progress=active speed=1.67 muzzleAboveGround=33.4 hits=0
+ATTACK_OBSTACLE_DIAG frame=500 attacker=4312 dist=435.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=29.6 hits=0
+ATTACK_OBSTACLE_DIAG frame=500 attacker=5926 dist=219.9 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=31.2 hits=0
+ATTACK_OBSTACLE_DIAG frame=500 attacker=10943 dist=419.8 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=45.4 hits=0
+ATTACK_OBSTACLE_DIAG frame=500 attacker=17294 dist=199.3 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=33.4 hits=3
+ATTACK_OBSTACLE_DIAG frame=500 attacker=24998 dist=211.4 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=33.1 hits=2
+ATTACK_OBSTACLE_DIAG frame=600 attacker=4312 dist=435.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=29.6 hits=0
+ATTACK_OBSTACLE_DIAG frame=600 attacker=5926 dist=219.9 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=32.5 hits=0
+ATTACK_OBSTACLE_DIAG frame=600 attacker=10943 dist=419.8 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=45.4 hits=0
+ATTACK_OBSTACLE_DIAG frame=600 attacker=17294 dist=199.3 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=33.6 hits=5
+ATTACK_OBSTACLE_DIAG frame=600 attacker=24998 dist=211.4 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=33.1 hits=4
+ATTACK_OBSTACLE_DIAG frame=700 attacker=4312 dist=435.5 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=29.6 hits=0
+ATTACK_OBSTACLE_DIAG frame=700 attacker=5926 dist=219.9 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=32.5 hits=0
+ATTACK_OBSTACLE_DIAG frame=700 attacker=10943 dist=419.8 tryTarget=false lofAim=false lofMuzzle=false canFire=false weaponTargetType=0 progress=done speed=0.00 muzzleAboveGround=45.4 hits=0
+ATTACK_OBSTACLE_DIAG frame=700 attacker=17294 dist=199.3 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=33.6 hits=7
+ATTACK_OBSTACLE_DIAG frame=700 attacker=24998 dist=211.4 tryTarget=true lofAim=true lofMuzzle=true canFire=false weaponTargetType=1 progress=done speed=0.00 muzzleAboveGround=33.1 hits=6
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=4312 target=14813 targetHits=0 otherHits=0 moved=57.3 forward=14.8 lateral=55.3 movedAfterFirstHit=-1.0 movedLast60Frames=0.0 distToTarget=435.5 start=669.5,2204.5 end=725.9,2214.6 heading=0->14142 targetPos=707.1,2649.7 command=20 commandTarget=14813
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=5926 target=14813 targetHits=0 otherHits=0 moved=431.6 forward=383.8 lateral=197.5 movedAfterFirstHit=-1.0 movedLast60Frames=0.0 distToTarget=219.9 start=662.2,2171.3 end=894.7,2535.0 heading=0->-7250 targetPos=707.1,2649.7 command=20 commandTarget=14813
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=10943 target=14813 targetHits=0 otherHits=0 moved=79.5 forward=13.8 lateral=78.3 movedAfterFirstHit=-1.0 movedLast60Frames=0.0 distToTarget=419.8 start=687.9,2223.9 end=766.7,2234.2 heading=0->14745 targetPos=707.1,2649.7 command=20 commandTarget=14813
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=17294 target=14813 targetHits=9 otherHits=5 moved=374.6 forward=336.3 lateral=164.9 movedAfterFirstHit=23.2 movedLast60Frames=0.0 distToTarget=199.3 start=698.2,2201.6 end=869.7,2534.6 heading=0->-8 targetPos=707.1,2649.7 command=20 commandTarget=14813
+ATTACK_OBSTACLE_RESULT scenario=rock movestate=0 attacker=24998 target=14813 targetHits=8 otherHits=3 moved=433.8 forward=387.5 lateral=195.0 movedAfterFirstHit=10.1 movedLast60Frames=0.0 distToTarget=211.4 start=685.1,2180.9 end=898.0,2558.9 heading=0->-4565 targetPos=707.1,2649.7 command=20 commandTarget=14813
