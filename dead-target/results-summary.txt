@@ -1,0 +1,24 @@
+== master_destroy
+DEAD_TARGET_SETUP variant=destroy attacker=armcom#25503 at 3472.7,908.4 target=armflea#25489 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 destroyed target #25489 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=destroy verdict=FAIL reason="walked on to the removed order's goal with an empty queue" triggerFrame=129 travelAfterTrigger=415.2 maxTravel=415.2 speed=0.00 queue=0 distToTargetSpot=37.8 minDistToTargetSpot=37.8 pos=3455.7,1442.7
+== master_queued
+DEAD_TARGET_SETUP variant=queued attacker=armcom#21605 at 3472.7,908.4 target=armflea#6824 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 destroyed target #6824 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=queued verdict=PASS reason="went straight to the move goal" triggerFrame=129 travelAfterTrigger=252.1 maxTravel=252.1 speed=0.00 queue=0 distToTargetSpot=464.1 minDistToTargetSpot=427.9 pos=3725.3,1087.1
+== master_remove
+DEAD_TARGET_SETUP variant=remove attacker=armcom#16864 at 3472.7,908.4 target=armflea(none) at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 removed active command id=10 tag=1 attackerPos=3480.2,1028.2
+DEAD_TARGET_RESULT variant=remove verdict=FAIL reason="walked on to the removed order's goal with an empty queue" triggerFrame=129 travelAfterTrigger=426.8 maxTravel=426.8 speed=0.00 queue=0 distToTargetSpot=27.8 minDistToTargetSpot=27.8 pos=3455.8,1454.3
+== fix_destroy
+DEAD_TARGET_SETUP variant=destroy attacker=armcom#28752 at 3472.7,908.4 target=armflea#18110 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 destroyed target #18110 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=destroy verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=1.4 maxTravel=1.4 speed=0.00 queue=0 distToTargetSpot=446.9 minDistToTargetSpot=446.9 pos=3480.3,1029.6
+== fix_queued
+DEAD_TARGET_SETUP variant=queued attacker=armcom#17041 at 3472.7,908.4 target=armflea#6790 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 destroyed target #6790 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=queued verdict=PASS reason="went straight to the move goal" triggerFrame=129 travelAfterTrigger=252.1 maxTravel=252.1 speed=0.00 queue=0 distToTargetSpot=464.1 minDistToTargetSpot=427.9 pos=3725.3,1087.1
+== fix_remove
+DEAD_TARGET_SETUP variant=remove attacker=armcom#19994 at 3472.7,908.4 target=armflea(none) at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 removed active command id=10 tag=1 attackerPos=3480.2,1028.2
+DEAD_TARGET_RESULT variant=remove verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=0.1 maxTravel=0.1 speed=0.00 queue=0 distToTargetSpot=448.2 minDistToTargetSpot=448.2 pos=3480.2,1028.3

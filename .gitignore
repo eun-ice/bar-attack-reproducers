@@ -8,3 +8,5 @@ results-probe/*.log
 results-probe/*.infolog.txt
 record-all.log
 *.zip
+dead-target/results/*.log
+dead-target/results/*.infolog.txt
