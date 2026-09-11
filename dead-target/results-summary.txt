@@ -1,6 +1,7 @@
 == master_destroy
 DEAD_TARGET_SETUP variant=destroy attacker=armcom#25503 at 3472.7,908.4 target=armflea#25489 at 3472.7,1476.4 dist=568.0
 DEAD_TARGET_TRIGGER frame=129 destroyed target #25489 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[25489]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
 DEAD_TARGET_RESULT variant=destroy verdict=FAIL reason="walked on to the removed order's goal with an empty queue" triggerFrame=129 travelAfterTrigger=415.2 maxTravel=415.2 speed=0.00 queue=0 distToTargetSpot=37.8 minDistToTargetSpot=37.8 pos=3455.7,1442.7
 == master_queued
 DEAD_TARGET_SETUP variant=queued attacker=armcom#21605 at 3472.7,908.4 target=armflea#6824 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
@@ -9,10 +10,25 @@ DEAD_TARGET_RESULT variant=queued verdict=PASS reason="went straight to the move
 == master_remove
 DEAD_TARGET_SETUP variant=remove attacker=armcom#16864 at 3472.7,908.4 target=armflea(none) at 3472.7,1476.4 dist=568.0
 DEAD_TARGET_TRIGGER frame=129 removed active command id=10 tag=1 attackerPos=3480.2,1028.2
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
 DEAD_TARGET_RESULT variant=remove verdict=FAIL reason="walked on to the removed order's goal with an empty queue" triggerFrame=129 travelAfterTrigger=426.8 maxTravel=426.8 speed=0.00 queue=0 distToTargetSpot=27.8 minDistToTargetSpot=27.8 pos=3455.8,1454.3
+== master_luagoal
+DEAD_TARGET_SETUP variant=luagoal attacker=armcom#31898 at 3472.7,908.4 target=armflea#15956 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 SetUnitMoveGoal 3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 destroyed target #15956 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[15956]} progress=active waypoint=3486.7,1029.7 distToTargetSpot=448.3 distToMoveGoal=259.6
+DEAD_TARGET_RESULT variant=luagoal verdict=PASS reason="kept the Lua-set move goal" triggerFrame=129 travelAfterTrigger=259.8 maxTravel=260.6 speed=0.00 queue=0 distToTargetSpot=467.1 minDistToTargetSpot=428.8 pos=3732.9,1088.4
+== master_replace
+DEAD_TARGET_SETUP variant=replace attacker=armcom#8709 at 3472.7,908.4 target=armflea#30972 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 replaced attack tag=1 by tag=2, queue=1
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[30972]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGER frame=159 destroyed target #30972 attackerPos=3482.6,1065.6 distToTargetSpot=410.9
+DEAD_TARGET_TRIGGERED frame=159 pos=3482.6,1065.6 speed=1.25 queue=1{20[30972]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=410.9
+DEAD_TARGET_RESULT variant=replace verdict=FAIL reason="walked on to the removed order's goal with an empty queue" triggerFrame=129 travelAfterTrigger=378.0 maxTravel=378.0 speed=0.00 queue=0 distToTargetSpot=37.8 minDistToTargetSpot=37.8 pos=3455.7,1442.7
 == fix_destroy
 DEAD_TARGET_SETUP variant=destroy attacker=armcom#28752 at 3472.7,908.4 target=armflea#18110 at 3472.7,1476.4 dist=568.0
 DEAD_TARGET_TRIGGER frame=129 destroyed target #18110 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[18110]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
 DEAD_TARGET_RESULT variant=destroy verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=1.4 maxTravel=1.4 speed=0.00 queue=0 distToTargetSpot=446.9 minDistToTargetSpot=446.9 pos=3480.3,1029.6
 == fix_queued
 DEAD_TARGET_SETUP variant=queued attacker=armcom#17041 at 3472.7,908.4 target=armflea#6790 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
@@ -21,4 +37,45 @@ DEAD_TARGET_RESULT variant=queued verdict=PASS reason="went straight to the move
 == fix_remove
 DEAD_TARGET_SETUP variant=remove attacker=armcom#19994 at 3472.7,908.4 target=armflea(none) at 3472.7,1476.4 dist=568.0
 DEAD_TARGET_TRIGGER frame=129 removed active command id=10 tag=1 attackerPos=3480.2,1028.2
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=0{} progress=done waypoint=3480.2,1028.9 distToTargetSpot=448.3
 DEAD_TARGET_RESULT variant=remove verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=0.1 maxTravel=0.1 speed=0.00 queue=0 distToTargetSpot=448.2 minDistToTargetSpot=448.2 pos=3480.2,1028.3
+== fix_luagoal
+DEAD_TARGET_SETUP variant=luagoal attacker=armcom#20832 at 3472.7,908.4 target=armflea#26407 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 SetUnitMoveGoal 3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 destroyed target #26407 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[26407]} progress=active waypoint=3486.7,1029.7 distToTargetSpot=448.3 distToMoveGoal=259.6
+DEAD_TARGET_RESULT variant=luagoal verdict=FAIL reason="stopped: the removed attack order cleared the Lua-set move goal" triggerFrame=129 travelAfterTrigger=1.4 maxTravel=1.4 speed=0.00 queue=0 distToTargetSpot=446.9 minDistToTargetSpot=446.9 pos=3480.3,1029.6
+== fix_replace
+DEAD_TARGET_SETUP variant=replace attacker=armcom#13247 at 3472.7,908.4 target=armflea#9638 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 replaced attack tag=1 by tag=2, queue=1
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[9638]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGER frame=159 destroyed target #9638 attackerPos=3482.6,1065.6 distToTargetSpot=410.9
+DEAD_TARGET_TRIGGERED frame=159 pos=3482.6,1065.6 speed=1.25 queue=1{20[9638]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=410.9
+DEAD_TARGET_RESULT variant=replace verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=1.4 maxTravel=1.4 speed=0.00 queue=0 distToTargetSpot=409.5 minDistToTargetSpot=409.5 pos=3482.6,1067.0
+== fix2_destroy
+DEAD_TARGET_SETUP variant=destroy attacker=armcom#28133 at 3472.7,908.4 target=armflea#5692 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 destroyed target #5692 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[5692]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=destroy verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=1.4 maxTravel=1.4 speed=0.00 queue=0 distToTargetSpot=446.9 minDistToTargetSpot=446.9 pos=3480.3,1029.6
+== fix2_queued
+DEAD_TARGET_SETUP variant=queued attacker=armcom#30363 at 3472.7,908.4 target=armflea#10727 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 destroyed target #10727 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=queued verdict=PASS reason="went straight to the move goal" triggerFrame=129 travelAfterTrigger=252.1 maxTravel=252.1 speed=0.00 queue=0 distToTargetSpot=464.1 minDistToTargetSpot=427.9 pos=3725.3,1087.1
+== fix2_remove
+DEAD_TARGET_SETUP variant=remove attacker=armcom#23654 at 3472.7,908.4 target=armflea(none) at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 removed active command id=10 tag=1 attackerPos=3480.2,1028.2
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=0{} progress=done waypoint=3480.2,1028.9 distToTargetSpot=448.3
+DEAD_TARGET_RESULT variant=remove verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=0.1 maxTravel=0.1 speed=0.00 queue=0 distToTargetSpot=448.2 minDistToTargetSpot=448.2 pos=3480.2,1028.3
+== fix2_luagoal
+DEAD_TARGET_SETUP variant=luagoal attacker=armcom#7107 at 3472.7,908.4 target=armflea#24387 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 SetUnitMoveGoal 3732.7,1088.4
+DEAD_TARGET_TRIGGER frame=129 destroyed target #24387 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[24387]} progress=active waypoint=3486.7,1029.7 distToTargetSpot=448.3 distToMoveGoal=259.6
+DEAD_TARGET_RESULT variant=luagoal verdict=PASS reason="kept the Lua-set move goal" triggerFrame=129 travelAfterTrigger=259.8 maxTravel=260.6 speed=0.00 queue=0 distToTargetSpot=467.1 minDistToTargetSpot=428.8 pos=3732.9,1088.4
+== fix2_replace
+DEAD_TARGET_SETUP variant=replace attacker=armcom#19428 at 3472.7,908.4 target=armflea#19859 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_TRIGGER frame=129 replaced attack tag=1 by tag=2, queue=1
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[19859]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGER frame=159 destroyed target #19859 attackerPos=3482.6,1065.6 distToTargetSpot=410.9
+DEAD_TARGET_TRIGGERED frame=159 pos=3482.6,1065.6 speed=1.25 queue=1{20[19859]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=410.9
+DEAD_TARGET_RESULT variant=replace verdict=PASS reason="stopped where the order ended" triggerFrame=129 travelAfterTrigger=1.4 maxTravel=1.4 speed=0.00 queue=0 distToTargetSpot=409.5 minDistToTargetSpot=409.5 pos=3482.6,1067.0

@@ -1,0 +1,42 @@
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/dead-target-keeps-moving-reproducer/data-master/games/Beyond-All-Reason.sdd'
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/dead-target-keeps-moving-reproducer/data-master/games/Beyond-All-Reason.sdd'
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/dead-target-keeps-moving-reproducer/data-master/games/Beyond-All-Reason.sdd'
+key "AdvSky" is deprecated
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9208: attempt to call field 'CreateShader' (a nil value)
+DEAD_TARGET_SETUP variant=luagoal attacker=armcom#31898 at 3472.7,908.4 target=armflea#15956 at 3472.7,1476.4 dist=568.0 moveGoal=3732.7,1088.4
+DEAD_TARGET_ORDERS frame=30 pos=3472.7,908.4 speed=0.00 queue=1{20[15956]} progress=active waypoint=3472.7,916.0 distToTargetSpot=568.0 distToMoveGoal=316.2
+DEAD_TARGET_DIAG frame=60 pos=3474.8,942.1 speed=1.25 queue=1{20[15956]} progress=active waypoint=3480.0,1024.0 distToTargetSpot=534.3 distToMoveGoal=296.5
+DEAD_TARGET_DIAG frame=90 pos=3477.1,979.5 speed=1.25 queue=1{20[15956]} progress=active waypoint=3480.0,1024.0 distToTargetSpot=496.9 distToMoveGoal=277.8
+DEAD_TARGET_DIAG frame=120 pos=3479.5,1017.0 speed=1.25 queue=1{20[15956]} progress=active waypoint=3480.0,1024.0 distToTargetSpot=459.5 distToMoveGoal=263.1
+DEAD_TARGET_TRIGGER frame=129 SetUnitMoveGoal 3732.7,1088.4
+DEAD_TARGET_TARGET_DESTROYED frame=129
+DEAD_TARGET_TRIGGER frame=129 destroyed target #15956 attackerPos=3480.2,1028.2 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[15956]} progress=active waypoint=3486.7,1029.7 distToTargetSpot=448.3 distToMoveGoal=259.6
+tag=1 frame=130 pos=3480.3,1029.4 speed=1.25 queue=0{} progress=active waypoint=3456.0,1408.0 distToTargetSpot=447.0 distToMoveGoal=259.2
+DEAD_TARGET_DIAG frame=134 pos=3480.6,1034.4 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=442.0 distToMoveGoal=257.8
+DEAD_TARGET_DIAG frame=139 pos=3483.4,1039.9 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=436.6 distToMoveGoal=254.0
+DEAD_TARGET_DIAG frame=144 pos=3488.6,1043.2 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=433.5 distToMoveGoal=248.2
+DEAD_TARGET_DIAG frame=149 pos=3494.7,1044.4 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=432.6 distToMoveGoal=242.0
+DEAD_TARGET_DIAG frame=154 pos=3500.9,1045.5 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=431.8 distToMoveGoal=235.7
+DEAD_TARGET_DIAG frame=159 pos=3507.0,1046.7 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=431.1 distToMoveGoal=229.5
+DEAD_TARGET_DIAG frame=164 pos=3513.2,1047.8 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=430.5 distToMoveGoal=223.2
+DEAD_TARGET_DIAG frame=169 pos=3519.3,1049.0 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=430.0 distToMoveGoal=217.0
+DEAD_TARGET_DIAG frame=174 pos=3525.5,1050.1 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=429.6 distToMoveGoal=210.7
+DEAD_TARGET_DIAG frame=179 pos=3531.6,1051.2 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=429.2 distToMoveGoal=204.5
+DEAD_TARGET_DIAG frame=184 pos=3537.8,1052.4 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=429.0 distToMoveGoal=198.2
+DEAD_TARGET_DIAG frame=189 pos=3543.9,1053.5 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=428.8 distToMoveGoal=192.0
+DEAD_TARGET_DIAG frame=219 pos=3580.8,1060.4 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=429.8 distToMoveGoal=154.5
+DEAD_TARGET_DIAG frame=249 pos=3617.6,1067.2 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=434.1 distToMoveGoal=117.0
+DEAD_TARGET_DIAG frame=279 pos=3654.5,1074.0 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=441.6 distToMoveGoal=79.5
+DEAD_TARGET_DIAG frame=309 pos=3691.4,1080.8 speed=1.25 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=452.0 distToMoveGoal=42.0
+DEAD_TARGET_DIAG frame=339 pos=3726.7,1087.3 speed=0.57 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=464.7 distToMoveGoal=6.0
+DEAD_TARGET_DIAG frame=369 pos=3732.7,1088.4 speed=0.00 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=467.1 distToMoveGoal=0.0
+DEAD_TARGET_DIAG frame=399 pos=3733.4,1087.4 speed=0.07 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=468.3 distToMoveGoal=1.2
+DEAD_TARGET_DIAG frame=429 pos=3732.7,1088.1 speed=0.02 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=467.3 distToMoveGoal=0.3
+DEAD_TARGET_DIAG frame=459 pos=3732.5,1089.1 speed=0.04 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=466.4 distToMoveGoal=0.7
+DEAD_TARGET_DIAG frame=489 pos=3732.1,1088.3 speed=0.04 queue=0{} progress=active waypoint=3732.7,1088.4 distToTargetSpot=466.8 distToMoveGoal=0.6
+DEAD_TARGET_DIAG frame=519 pos=3732.9,1088.4 speed=0.00 queue=0{} progress=done waypoint=3732.7,1088.4 distToTargetSpot=467.1 distToMoveGoal=0.2
+DEAD_TARGET_DIAG frame=549 pos=3732.9,1088.4 speed=0.00 queue=0{} progress=done waypoint=3732.7,1088.4 distToTargetSpot=467.1 distToMoveGoal=0.2
+DEAD_TARGET_DIAG frame=579 pos=3732.9,1088.4 speed=0.00 queue=0{} progress=done waypoint=3732.7,1088.4 distToTargetSpot=467.1 distToMoveGoal=0.2
+DEAD_TARGET_DIAG frame=609 pos=3732.9,1088.4 speed=0.00 queue=0{} progress=done waypoint=3732.7,1088.4 distToTargetSpot=467.1 distToMoveGoal=0.2
+DEAD_TARGET_RESULT variant=luagoal verdict=PASS reason="kept the Lua-set move goal" triggerFrame=129 travelAfterTrigger=259.8 maxTravel=260.6 speed=0.00 queue=0 distToTargetSpot=467.1 minDistToTargetSpot=428.8 pos=3732.9,1088.4

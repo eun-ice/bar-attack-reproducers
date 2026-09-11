@@ -1,0 +1,37 @@
+Error 'No such file or directory' getting readlink() for file '/home/aron/Projects/bar/dead-target-keeps-moving-reproducer/data-master/games/Beyond-All-Reason.sdd'
+key "AdvSky" is deprecated
+Error in Initialize(): [string "LuaUI/Widgets/gui_pip.lua"]:9208: attempt to call field 'CreateShader' (a nil value)
+DEAD_TARGET_SETUP variant=replace attacker=armcom#8709 at 3472.7,908.4 target=armflea#30972 at 3472.7,1476.4 dist=568.0
+DEAD_TARGET_ORDERS frame=30 pos=3472.7,908.4 speed=0.00 queue=1{20[30972]} progress=active waypoint=3472.7,916.0 distToTargetSpot=568.0
+DEAD_TARGET_DIAG frame=60 pos=3474.8,942.1 speed=1.25 queue=1{20[30972]} progress=active waypoint=3480.0,1024.0 distToTargetSpot=534.3
+DEAD_TARGET_DIAG frame=90 pos=3477.1,979.5 speed=1.25 queue=1{20[30972]} progress=active waypoint=3480.0,1024.0 distToTargetSpot=496.9
+DEAD_TARGET_DIAG frame=120 pos=3479.5,1017.0 speed=1.25 queue=1{20[30972]} progress=active waypoint=3480.0,1024.0 distToTargetSpot=459.5
+tag=1 frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[30972]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
+DEAD_TARGET_TRIGGER frame=129 replaced attack tag=1 by tag=2, queue=1
+DEAD_TARGET_TRIGGERED frame=129 pos=3480.2,1028.2 speed=1.25 queue=1{20[30972]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=448.3
+DEAD_TARGET_TARGET_DESTROYED frame=159
+DEAD_TARGET_TRIGGER frame=159 destroyed target #30972 attackerPos=3482.6,1065.6 distToTargetSpot=410.9
+DEAD_TARGET_TRIGGERED frame=159 pos=3482.6,1065.6 speed=1.25 queue=1{20[30972]} progress=active waypoint=3488.0,1152.0 distToTargetSpot=410.9
+tag=2 frame=160 pos=3482.6,1066.9 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=409.7
+DEAD_TARGET_DIAG frame=164 pos=3483.0,1071.9 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=404.7
+DEAD_TARGET_DIAG frame=169 pos=3483.3,1078.1 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=398.5
+DEAD_TARGET_DIAG frame=174 pos=3483.7,1084.3 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=392.2
+DEAD_TARGET_DIAG frame=179 pos=3484.1,1090.6 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=386.0
+DEAD_TARGET_DIAG frame=184 pos=3484.5,1096.8 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=379.8
+DEAD_TARGET_DIAG frame=189 pos=3484.9,1103.0 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=373.6
+DEAD_TARGET_DIAG frame=219 pos=3487.3,1140.5 speed=1.25 queue=0{} progress=active waypoint=3488.0,1152.0 distToTargetSpot=336.2
+DEAD_TARGET_DIAG frame=249 pos=3480.6,1177.1 speed=1.25 queue=0{} progress=active waypoint=3456.0,1280.0 distToTargetSpot=299.4
+DEAD_TARGET_DIAG frame=279 pos=3471.9,1213.5 speed=1.25 queue=0{} progress=active waypoint=3456.0,1280.0 distToTargetSpot=262.9
+DEAD_TARGET_DIAG frame=309 pos=3463.2,1249.9 speed=1.25 queue=0{} progress=active waypoint=3456.0,1280.0 distToTargetSpot=226.7
+DEAD_TARGET_DIAG frame=339 pos=3457.0,1286.5 speed=1.25 queue=0{} progress=active waypoint=3456.0,1408.0 distToTargetSpot=190.5
+DEAD_TARGET_DIAG frame=369 pos=3456.7,1324.0 speed=1.25 queue=0{} progress=active waypoint=3456.0,1408.0 distToTargetSpot=153.3
+DEAD_TARGET_DIAG frame=399 pos=3456.4,1361.4 speed=1.25 queue=0{} progress=active waypoint=3456.0,1408.0 distToTargetSpot=116.2
+DEAD_TARGET_DIAG frame=429 pos=3456.1,1398.9 speed=1.25 queue=0{} progress=active waypoint=3456.0,1408.0 distToTargetSpot=79.3
+DEAD_TARGET_DIAG frame=459 pos=3455.6,1435.1 speed=1.25 queue=0{} progress=active waypoint=3456.0,1464.0 distToTargetSpot=44.7
+DEAD_TARGET_DIAG frame=489 pos=3455.7,1442.7 speed=0.00 queue=0{} progress=done waypoint=3456.0,1464.0 distToTargetSpot=37.8
+DEAD_TARGET_DIAG frame=519 pos=3455.7,1442.7 speed=0.00 queue=0{} progress=done waypoint=3456.0,1464.0 distToTargetSpot=37.8
+DEAD_TARGET_DIAG frame=549 pos=3455.7,1442.7 speed=0.00 queue=0{} progress=done waypoint=3456.0,1464.0 distToTargetSpot=37.8
+DEAD_TARGET_DIAG frame=579 pos=3455.7,1442.7 speed=0.00 queue=0{} progress=done waypoint=3456.0,1464.0 distToTargetSpot=37.8
+DEAD_TARGET_DIAG frame=609 pos=3455.7,1442.7 speed=0.00 queue=0{} progress=done waypoint=3456.0,1464.0 distToTargetSpot=37.8
+DEAD_TARGET_DIAG frame=639 pos=3455.7,1442.7 speed=0.00 queue=0{} progress=done waypoint=3456.0,1464.0 distToTargetSpot=37.8
+DEAD_TARGET_RESULT variant=replace verdict=FAIL reason="walked on to the removed order's goal with an empty queue" triggerFrame=129 travelAfterTrigger=378.0 maxTravel=378.0 speed=0.00 queue=0 distToTargetSpot=37.8 minDistToTargetSpot=37.8 pos=3455.7,1442.7

@@ -42,6 +42,13 @@ local function Echo(fmt, ...) Spring.Echo(PREFIX .. string.format(fmt, ...)) end
 --            continues straight to the move goal, not via the dead target's position)
 --   remove   plain move order that is removed from the queue with CMD.REMOVE once the unit
 --            has walked TRIGGER_DIST elmo (expected: the unit stops)
+--   luagoal  as destroy, but at the trigger a gadget first overrides the move goal with
+--            Spring.SetUnitMoveGoal (expected: the unit keeps walking to the Lua goal; the
+--            removed attack order must not clear a goal it did not set)
+--   replace  as destroy, but at the trigger a replacement attack on the same target is
+--            inserted at the front of the queue and the original one (now second) is removed
+--            by tag; the target is destroyed REPLACE_DELAY frames later (expected: the unit
+--            stops; the move goal must be owned by the replacement, not the removed order)
 local opts = {
 	variant = ModOpt("deadtargetvariant", "destroy"),
 	dist = tonumber(ModOpt("deadtargetdist", "600")),
@@ -53,6 +60,7 @@ local SETUP_FRAME = 5
 local ORDER_FRAME = 30
 local TRIGGER_DIST = 120       -- elmo the attacker must have walked before the target is killed
 local RESULT_DELAY = 480       -- frames between trigger and RESULT (enough to walk the remaining way)
+local REPLACE_DELAY = 30       -- replace variant: frames between the queue edit and the kill
 local STOP_TOLERANCE = 60      -- elmo of travel after the trigger still accepted as "stopped"
 local ARRIVE_TOLERANCE = 40
 
@@ -61,7 +69,7 @@ local START = { x = 3472.7, z = 908.4 }
 
 local attackerID, attackerDefID, targetID
 local targetSpot, moveGoal
-local startPos, triggerFrame, triggerPos, resultFrame
+local startPos, triggerFrame, triggerPos, resultFrame, killFrame
 local maxTravel = 0
 local minDistToTargetSpot = math.huge
 local done = false
@@ -125,7 +133,7 @@ local function Setup()
 		targetID = Spring.CreateUnit(opts.target, tx, Spring.GetGroundHeight(tx, tz), tz, "north", 1)
 		assert(targetID, "could not create target")
 	end
-	if opts.variant == "queued" then
+	if opts.variant == "queued" or opts.variant == "luagoal" then
 		local mx, mz = StandableTowards(attackerDefID, START.x + 260, START.z + 180)
 		moveGoal = { x = mx, z = mz }
 	end
@@ -155,7 +163,21 @@ local function Trigger(frame)
 		assert(front, "no active command to remove")
 		Spring.GiveOrderToUnit(attackerID, CMD.REMOVE, { front.tag }, 0)
 		Echo("TRIGGER frame=%d removed active command id=%d tag=%d attackerPos=%.1f,%.1f", frame, front.id, front.tag, x, z)
+	elseif opts.variant == "replace" then
+		local front = (Spring.GetUnitCommands(attackerID, 1) or {})[1]
+		assert(front and front.id == CMD.ATTACK, "no active attack command to replace")
+		Spring.GiveOrderToUnit(attackerID, CMD.INSERT, { 0, CMD.ATTACK, 0, targetID }, CMD.OPT_ALT)
+		Spring.GiveOrderToUnit(attackerID, CMD.REMOVE, { front.tag }, 0)
+		local newFront = (Spring.GetUnitCommands(attackerID, 1) or {})[1]
+		Echo("TRIGGER frame=%d replaced attack tag=%d by tag=%d, queue=%d", frame, front.tag, newFront and newFront.tag or -1, Spring.GetUnitCommandCount(attackerID))
+		killFrame = frame + REPLACE_DELAY
+		-- the kill (and the travel measurement) start at killFrame, see GameFrame
+		triggerPos = nil
 	else
+		if opts.variant == "luagoal" then
+			Spring.SetUnitMoveGoal(attackerID, moveGoal.x, Spring.GetGroundHeight(moveGoal.x, moveGoal.z), moveGoal.z)
+			Echo("TRIGGER frame=%d SetUnitMoveGoal %.1f,%.1f", frame, moveGoal.x, moveGoal.z)
+		end
 		Spring.DestroyUnit(targetID, false, false)
 		Echo("TRIGGER frame=%d destroyed target #%d attackerPos=%.1f,%.1f distToTargetSpot=%.1f", frame, targetID, x, z, Dist2D(x, z, targetSpot.x, targetSpot.z))
 	end
@@ -170,12 +192,14 @@ local function Result(frame)
 	local travel = Dist2D(x, z, triggerPos.x, triggerPos.z)
 	local distToTargetSpot = Dist2D(x, z, targetSpot.x, targetSpot.z)
 	local verdict, why
-	if opts.variant == "queued" then
+	if opts.variant == "queued" or opts.variant == "luagoal" then
 		local distToMoveGoal = Dist2D(x, z, moveGoal.x, moveGoal.z)
 		if distToMoveGoal <= ARRIVE_TOLERANCE and queue == 0 and minDistToTargetSpot > ARRIVE_TOLERANCE then
-			verdict, why = "PASS", "went straight to the move goal"
+			verdict, why = "PASS", (opts.variant == "luagoal") and "kept the Lua-set move goal" or "went straight to the move goal"
 		elseif distToMoveGoal <= ARRIVE_TOLERANCE and queue == 0 then
 			verdict, why = "FAIL", ("detoured via the dead target's position (came within %.1f elmo of it)"):format(minDistToTargetSpot)
+		elseif opts.variant == "luagoal" and travel <= STOP_TOLERANCE and speed == 0 then
+			verdict, why = "FAIL", "stopped: the removed attack order cleared the Lua-set move goal"
 		else
 			verdict, why = "FAIL", ("did not arrive at the move goal (dist %.1f, queue %d)"):format(distToMoveGoal, queue)
 		end
@@ -212,6 +236,17 @@ function gadget:GameFrame(frame)
 			SendToUnsynced("deadtarget_done")
 		end
 		return
+	end
+
+	if killFrame then
+		if frame < killFrame then return end
+		if frame == killFrame then
+			triggerPos, resultFrame = { x = x, z = z }, frame + RESULT_DELAY
+			Spring.DestroyUnit(targetID, false, false)
+			Echo("TRIGGER frame=%d destroyed target #%d attackerPos=%.1f,%.1f distToTargetSpot=%.1f", frame, targetID, x, z, Dist2D(x, z, targetSpot.x, targetSpot.z))
+			Diag(frame, "TRIGGERED")
+			return
+		end
 	end
 
 	maxTravel = math.max(maxTravel, Dist2D(x, z, triggerPos.x, triggerPos.z))

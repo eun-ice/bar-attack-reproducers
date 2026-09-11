@@ -38,18 +38,33 @@ during a close-in step, or an ally killing the target).
     moves the unit anyway"). Passes on master and on the fix.
   * `remove`: plain `CMD.MOVE` to the same spot; at the trigger the active command is removed
     with `CMD.REMOVE <tag>`. Expected: the unit stops. Master: walks 427 elmo on to the goal.
+  * `luagoal`: as `destroy`, but in the trigger frame a gadget first calls
+    `Spring.SetUnitMoveGoal` towards another spot. Expected: the unit keeps walking to the Lua
+    goal; the removed attack order must not clear a goal it did not set. Passes on master, fails
+    on the first fix commit (unconditional stop), passes on the second.
+  * `replace`: as `destroy`, but at the trigger a replacement `CMD.ATTACK` on the same target is
+    inserted at the front of the queue (`CMD.INSERT`) and the original one, now second, is
+    removed by tag; the target is destroyed 30 frames later. Expected: the unit stops, i.e. the
+    move goal is owned by the replacement order, not by the removed one. Master: walks 378 elmo.
 * `tools/StartScripts/startscript_<variant>.txt`, `run.sh <spring-headless> <startscript> <label>`
   (isolated write dir, gadget symlinked into the BAR checkout, `results/<label>.results.txt`),
-  `run-all.sh <spring-headless> <label>` runs the three variants.
-* `results-summary.txt`: master (origin/master 680e33a241 == 2026.07.01-61) vs the fix build.
+  `run-all.sh <spring-headless> <label>` runs the five variants.
+* `results-summary.txt`: master (origin/master 680e33a241 == 2026.07.01-61), the first fix commit
+  (`fix_*`, 5dc4002df2: unconditional `StopMove()` in `ExecuteRemove`) and the second
+  (`fix2_*`, ff99e47982: stop only if the removed command owns the move goal).
 
 ## Results
 
-| variant | master 680e33a241 | fix |
-|---|---|---|
-| destroy | FAIL: 415 elmo after the kill, stops 38 elmo from the dead target's spot, queue empty | PASS: 1.4 elmo |
-| queued | PASS: straight to the move goal | PASS: straight to the move goal |
-| remove | FAIL: 427 elmo after the removal, stops 28 elmo from the removed goal | PASS: 0.1 elmo |
+| variant | master 680e33a241 | fix commit 1 (5dc4002df2) | fix commit 2 (ff99e47982) |
+|---|---|---|---|
+| destroy | FAIL: 415 elmo after the kill, stops 38 elmo from the dead target's spot, queue empty | PASS: 1.4 elmo | PASS: 1.4 elmo |
+| queued | PASS: straight to the move goal | PASS | PASS |
+| remove | FAIL: 427 elmo after the removal, stops 28 elmo from the removed goal | PASS: 0.1 elmo | PASS: 0.1 elmo |
+| luagoal | PASS: keeps the Lua-set goal | FAIL: stops, the Lua goal is discarded | PASS: keeps the Lua-set goal |
+| replace | FAIL: 378 elmo after the kill, stops 38 elmo from the dead target's spot | PASS: 1.4 elmo | PASS: 1.4 elmo |
 
-Fix: `ExecuteRemove` calls `StopMove()` before finishing the active command unless the next
-queued command is a move command (branch `fix/stop-move-on-removed-active-command`).
+Fix (PR [RecoilEngine #3333](https://github.com/beyond-all-reason/RecoilEngine/pull/3333), branch
+`fix/stop-move-on-removed-active-command`): `ExecuteRemove` calls `StopMove()` before finishing the
+removed active command if that command owns the move goal (`CCommandAI::moveGoalCmdTag`, set by
+`CMobileCAI::SetGoal`, reset by `Spring.SetUnitMoveGoal`) and the next queued command is not a move
+command.
