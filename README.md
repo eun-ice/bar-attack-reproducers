@@ -81,3 +81,8 @@ Result lines: `ATTACK_OBSTACLE_RESULT` (per shooter at frame 800: targetHits, mo
 distToTarget, movedLast60Frames), `ATTACK_OBSTACLE_DIAG` every 100 frames (tryTarget,
 LOF from estimate and from muzzle, move progress). `results/` holds the runs used for the PR:
 `before*` = engine without the CommandAI commits, `after3` = final engine.
+
+## Target lifecycle validation (RecoilEngine #3454)
+
+[UnitPreDelete and native/compact queue fixtures](validation/unit_deleted/README.md)
+include the runners, Lua observers, reproduction instructions and validation limits.
