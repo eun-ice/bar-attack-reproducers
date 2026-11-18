@@ -1,0 +1,17 @@
+{
+  "replay": "2c8ffc6a0c7f88b9c8f596a02ef0c523",
+  "map": "All That Glitters v2.2.3",
+  "arm": "pr8935",
+  "finish": 33900,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/2c8ffc6a0c7f88b9c8f596a02ef0c523/pr-controller",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "bd72673c30325e59ba1b45b932dda5d45e1196a40bb39c35ed86936097b4e0fe",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958679.933468,
+  "pid": 259757,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794959020.7481575
+}

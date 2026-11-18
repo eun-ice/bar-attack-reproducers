@@ -1,0 +1,17 @@
+{
+  "replay": "688efc6a63a2f58ad834c13cb7faa6c4",
+  "map": "Tumult Remake v1.0.1",
+  "arm": "release",
+  "finish": 29100,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/688efc6a63a2f58ad834c13cb7faa6c4/base",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "0c7d8279577d1541e88f2bf7495418b0d1acfd2743c67e6bbf54a7430fd75948",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958868.1158428,
+  "pid": 261965,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794958930.67105
+}

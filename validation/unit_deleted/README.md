@@ -8,6 +8,13 @@ Use `python3 validation/unit_deleted/run.py --help` and
 `python3 validation/unit_deleted/run_compact.py --help` for available options.
 Historical local paths and results below document the original experiments.
 
+## Latest validation: 20/20 three-way replay parity (2026-11-18)
+
+[Full results and evidence](results/2026-11-18-replay-parity/README.md): all 60 runs
+completed, with zero recorded-checksum warnings in every variant and equal state/event
+hashes across all 20 replays. This includes the historical Set Target parity patch
+and supersedes the remaining checksum limitation reported below.
+
 # UnitPreDelete correction, 2026-11-17
 
 UnitPreDelete(unitID, unitDefID, unitTeam) runs while the complete unit is still
@@ -34,7 +41,7 @@ native dependants and that derived destruction precedes their notifications.
 
 OpenAI Codex assisted implementation and automated validation. Human review and gameplay verification remain pending.
 
-## Final validation of the correction
+## Validation before the full parity rerun (2026-11-17)
 
 The release 2026.09.03 replay matrix completed all 20 replays in all three arms.
 Recorded BAR on the corrected engine matches the official release in sampled

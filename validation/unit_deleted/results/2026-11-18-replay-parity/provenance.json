@@ -1,0 +1,413 @@
+{
+  "native_inputs": true,
+  "engines": {
+    "release": {
+      "path": "/home/aron/Projects/bar/attack-comparison/release-20260903-20261117/engine/spring-headless",
+      "sha256": "0c7d8279577d1541e88f2bf7495418b0d1acfd2743c67e6bbf54a7430fd75948",
+      "base": {
+        "base/RecoilEngine_4K.png": "b7112c2cd96b78116112785ed894be75ef52b675b1341df8f8fda3192f7639bc",
+        "base/cursors.sdz": "ca815699cf44eec84e1ed470aa93282e420967238875fa16daa556434933c946",
+        "base/maphelper.sdz": "19de31f1cec625383e51b4e5de059985e93da02a9df9f0e0a5d4b11d3e14880d",
+        "base/springcontent.sdz": "703c8c2ce1deecc6b701c9a4fa93dc8c2c5679f4d8ea4571e7869b3903fc5f77",
+        "base/spring/bitmaps.sdz": "7ab7391d6cb16f5e5b4453cae10899cd9ac99857083fe6fdb8b3303e4c17d9bf"
+      }
+    },
+    "extended": {
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/engines/predelete-v2/spring-headless",
+      "sha256": "bd72673c30325e59ba1b45b932dda5d45e1196a40bb39c35ed86936097b4e0fe",
+      "base": {
+        "base/maphelper.sdz": "bcf67a010459e66893262f8bae0e89e55b3d2b45fc2cd4ebd0fbb009e1adfaef",
+        "base/cursors.sdz": "0f7b4251ad674d6150fb692fef1354eba2563f3b8d2a5e117fd6a9d19d25ca14",
+        "base/springcontent.sdz": "541da7a853294f79cf8f4b79d379c255a986de0d17be8e470b75fb7cb24a8db0",
+        "base/spring/bitmaps.sdz": "713e35cdcc0e40a2acec1bbb55f99495030a75b97c7a2b85b0b8df1f28365144"
+      }
+    }
+  },
+  "runtime": {
+    "luarules/gadgets.lua": "08dca70f2622f6b9828a7e2a7086f0e22a3d3c71976b7d445d2a7daab474ad46",
+    "modules/customcommands.lua": "697d3a754fa9c9651f3bebd12be8f6134b1502c7cd5fcaf2bfc525cc5bee7344",
+    "luarules/Utilities/shared_target_list_store.lua": "5ac726cceb05e55d0ddb4407c05e44146249ebd965d9259995fe4149d07393f3",
+    "luarules/gadgets/cmd_alliance_break.lua": "f40b00a2754b02e960bb673830f716576fa8eca2378bb608d8c039028b74b6bc",
+    "luarules/gadgets/cmd_attack_targets.lua": "8aee00c8f22020b37add18dd6be5089700333ecfb754f3b3677da62488ed8c71",
+    "luarules/gadgets/game_no_rush_mode.lua": "8056613d7a464cda877cca79abb1f60a4b66cc2fa32f513b2a95bd758faf6106",
+    "luarules/gadgets/unit_target_on_the_move.lua": "8165de1129f934984010e5fddf02eda302b1132fa75481313088996b7537ee89",
+    "common/luaUtilities/native_attack_orders.lua": "3322249a37f4f0fa708f9af456f017170b956ae533b3a7a52930ad20b8683e60",
+    "common/luaUtilities/split_area_targets.lua": "ead01e2535ac29de1c5385c7fb01ef323af646258c207b7def72497ffd745d8b",
+    "common/luaUtilities/target_list_orders.lua": "16773920db545ee3a2df9f66392cb256bb4a3682e3ebd0372ed3d36110c4bc5a"
+  },
+  "replays": [
+    {
+      "id": "ff92fc6a457c252548e6ca313103d61d",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/ff92fc6a457c252548e6ca313103d61d__2026-11-17_17-46-39-104_Onyx Cauldron 2.2.2_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 27148,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "abb88388f44b38f4da30acbb2338d95b0b8a0c7466dda4fea0b903171b362e50",
+      "map": {
+        "id": 570,
+        "scriptName": "Onyx Cauldron 2.2.2",
+        "fileName": "onyx_cauldron_2.2.2",
+        "width": 16,
+        "height": 16
+      },
+      "first_chain": null
+    },
+    {
+      "id": "6890fc6a391ec6d61c24a9c5a7b4bd4f",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/6890fc6a391ec6d61c24a9c5a7b4bd4f__2026-11-17_17-35-36-009_Comet Catcher Remake 1.8_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 18384,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "1ba161e084f56da51c697b2127c1d1da49c434ba117d89be312d25c205131747",
+      "map": {
+        "id": 1,
+        "scriptName": "Comet Catcher Remake 1.8",
+        "fileName": "comet_catcher_remake_1.8",
+        "width": 16,
+        "height": 12
+      },
+      "first_chain": null
+    },
+    {
+      "id": "cd92fc6a0f02564782ac4735ca8116e0",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/cd92fc6a0f02564782ac4735ca8116e0__2026-11-17_17-45-49-828_Supreme Isthmus v2.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 22548,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "7a2390da1dd0c81cb7b91a2628890654d43194dc9ee204f7ed01c65acf59ff36",
+      "map": {
+        "id": 579,
+        "scriptName": "Supreme Isthmus v2.1",
+        "fileName": "supreme_isthmus_v2.1",
+        "width": 24,
+        "height": 24
+      },
+      "first_chain": null
+    },
+    {
+      "id": "6f90fc6a52c5aeb257d9dbd35093ee3f",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/6f90fc6a52c5aeb257d9dbd35093ee3f__2026-11-17_17-35-43-140_Supreme Isthmus v2.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 36333,
+      "chains": 7,
+      "max_targets": 2,
+      "sha256": "65f1a5d07054d623536d6cff0c467813994c0853c01b747dc188e4aaafd6893a",
+      "map": {
+        "id": 579,
+        "scriptName": "Supreme Isthmus v2.1",
+        "fileName": "supreme_isthmus_v2.1",
+        "width": 24,
+        "height": 24
+      },
+      "first_chain": 18881
+    },
+    {
+      "id": "f98ffc6a593056499817d2c234a72076",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/f98ffc6a593056499817d2c234a72076__2026-11-17_17-33-45-504_All That Glitters v2.2.3_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 27359,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "1625ab0dcf526da9c3c89d8a2b26fb163f7ed40aa07b2cf3590555e663cd2792",
+      "map": {
+        "id": 610,
+        "scriptName": "All That Glitters v2.2.3",
+        "fileName": "all_that_glitters_v2.2.3",
+        "width": 12,
+        "height": 20
+      },
+      "first_chain": null
+    },
+    {
+      "id": "b28bfc6a4d2951af49de7f63e38b7192",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/b28bfc6a4d2951af49de7f63e38b7192__2026-11-17_17-15-30-228_Comet Catcher Remake 1.8_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 25792,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "c20620bc124b9ca1d1330e314c5f60b43ea7b86c2a9737aed0d1dbed6bc6e7dc",
+      "map": {
+        "id": 1,
+        "scriptName": "Comet Catcher Remake 1.8",
+        "fileName": "comet_catcher_remake_1.8",
+        "width": 16,
+        "height": 12
+      },
+      "first_chain": null
+    },
+    {
+      "id": "5b8cfc6a5161931fd421ea32fe702b26",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/5b8cfc6a5161931fd421ea32fe702b26__2026-11-17_17-18-19-094_Supreme Isthmus v2.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 74939,
+      "chains": 74,
+      "max_targets": 4,
+      "sha256": "35c0ce94b085783020a938d3819859782e518f90c6231f588fc30f935e1354d8",
+      "map": {
+        "id": 579,
+        "scriptName": "Supreme Isthmus v2.1",
+        "fileName": "supreme_isthmus_v2.1",
+        "width": 24,
+        "height": 24
+      },
+      "first_chain": 14980
+    },
+    {
+      "id": "7293fc6a02d557943cb05906274c9bd0",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/7293fc6a02d557943cb05906274c9bd0__2026-11-17_17-48-34-472_Melting Glacier v1.1.2_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 20702,
+      "chains": 14,
+      "max_targets": 2,
+      "sha256": "1139a6623f21133cd5161f1c8d446b51424d1889fcda285ad386f0d358a3f503",
+      "map": {
+        "id": 631,
+        "scriptName": "Melting Glacier v1.1.2",
+        "fileName": "melting_glacier_v1.1.2",
+        "width": 20,
+        "height": 20
+      },
+      "first_chain": 14372
+    },
+    {
+      "id": "9792fc6adf43c8e700367e7f4cd6c790",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/9792fc6adf43c8e700367e7f4cd6c790__2026-11-17_17-44-55-744_TitanDuel_V3_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 21682,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "dd9dc27267b281ec2f86149827a066b7e0df887796c3ed372a49a9225189aa2a",
+      "map": {
+        "id": 121,
+        "scriptName": "TitanDuel_V3",
+        "fileName": "titanduel_v3",
+        "width": 10,
+        "height": 10
+      },
+      "first_chain": null
+    },
+    {
+      "id": "4f92fc6acdf71e7d81717700fb9e5138",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/4f92fc6acdf71e7d81717700fb9e5138__2026-11-17_17-43-43-702_SpeedMetal BAR V2_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 22406,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "e46db2becee08fd77140c219fee9a6a2a4b1ebc67efe13b4170dc6c47f96eb2a",
+      "map": {
+        "id": 15,
+        "scriptName": "SpeedMetal BAR V2",
+        "fileName": "speedmetal_bar_v2",
+        "width": 26,
+        "height": 4
+      },
+      "first_chain": null
+    },
+    {
+      "id": "ce91fc6aea4b932d1afa8e1044f54a51",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/ce91fc6aea4b932d1afa8e1044f54a51__2026-11-17_17-41-34-016_Eye Of Horus 1.7.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 36682,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "29eb51920e1519372d438380f81842ba198ec6e436f246cd0bc0398ad3010394",
+      "map": {
+        "id": 441,
+        "scriptName": "Eye Of Horus 1.7.1",
+        "fileName": "eye_of_horus_1.7.1",
+        "width": 12,
+        "height": 14
+      },
+      "first_chain": null
+    },
+    {
+      "id": "cd90fc6ad8e7eec3fbd7e03daa9f7f72",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/cd90fc6ad8e7eec3fbd7e03daa9f7f72__2026-11-17_17-37-17-438_Incandescence Remake 3.3.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 22706,
+      "chains": 1,
+      "max_targets": 2,
+      "sha256": "ac23d3498428955006ca4812a3a6c21f867a7bf91f477ea6055f721381b7296e",
+      "map": {
+        "id": 452,
+        "scriptName": "Incandescence Remake 3.3.1",
+        "fileName": "incandescence_remake_3.3.1",
+        "width": 16,
+        "height": 16
+      },
+      "first_chain": 8084
+    },
+    {
+      "id": "3690fc6ae4bb62dab230b3f50328d3a6",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/3690fc6ae4bb62dab230b3f50328d3a6__2026-11-17_17-34-46-715_Koom Valley 3 3.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 24720,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "5bdf8c5fdc1a2314163690c1720eb7fcde3bc4cd8ac3880e05aa69706e3f2bc4",
+      "map": {
+        "id": 177,
+        "scriptName": "Koom Valley 3 3.1",
+        "fileName": "koom_valley_3_3.1",
+        "width": 24,
+        "height": 16
+      },
+      "first_chain": null
+    },
+    {
+      "id": "2c8ffc6a0c7f88b9c8f596a02ef0c523",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/2c8ffc6a0c7f88b9c8f596a02ef0c523__2026-11-17_17-30-20-152_All That Glitters v2.2.3_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 34158,
+      "chains": 13,
+      "max_targets": 4,
+      "sha256": "713489f269d61f26bdc5745893d31fd91d22627ecaa3d359cf4403921fcecac3",
+      "map": {
+        "id": 610,
+        "scriptName": "All That Glitters v2.2.3",
+        "fileName": "all_that_glitters_v2.2.3",
+        "width": 12,
+        "height": 20
+      },
+      "first_chain": 32970
+    },
+    {
+      "id": "d18efc6af2c49b59f250b441b8d33014",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/d18efc6af2c49b59f250b441b8d33014__2026-11-17_17-28-49-175_Supreme Isthmus v2.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 35262,
+      "chains": 12,
+      "max_targets": 2,
+      "sha256": "70cc7cde8c5ea963666a0df354cef3e351fc090ad0385d6e5880f68431092805",
+      "map": {
+        "id": 579,
+        "scriptName": "Supreme Isthmus v2.1",
+        "fileName": "supreme_isthmus_v2.1",
+        "width": 24,
+        "height": 24
+      },
+      "first_chain": 17793
+    },
+    {
+      "id": "688efc6a63a2f58ad834c13cb7faa6c4",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/688efc6a63a2f58ad834c13cb7faa6c4__2026-11-17_17-27-04-797_Tumult Remake v1.0.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 29358,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "3880aa388901bf57f6f1f17ed285239e0d7dd67897cfe0c67f83bfdfd6f2adef",
+      "map": {
+        "id": 473,
+        "scriptName": "Tumult Remake v1.0.1",
+        "fileName": "tumult_remake_v1.0.1",
+        "width": 14,
+        "height": 14
+      },
+      "first_chain": null
+    },
+    {
+      "id": "f38dfc6a8325a8ba364f5352a6ec459e",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/f38dfc6a8325a8ba364f5352a6ec459e__2026-11-17_17-25-07-902_All That Glitters v2.2.3_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 28907,
+      "chains": 8,
+      "max_targets": 3,
+      "sha256": "c9911dac126173e42440db81a054b6dc815fdd3d1b2947c085effdba81bcab2b",
+      "map": {
+        "id": 610,
+        "scriptName": "All That Glitters v2.2.3",
+        "fileName": "all_that_glitters_v2.2.3",
+        "width": 12,
+        "height": 20
+      },
+      "first_chain": 26861
+    },
+    {
+      "id": "048dfc6a1dd184beb68ed33b1663873f",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/048dfc6a1dd184beb68ed33b1663873f__2026-11-17_17-21-08-960_Timna Island 1.0.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 29859,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "d6e26d4a98592f68ab386a93238400888c9621627fdb3d9a8868948bd4f6a5c9",
+      "map": {
+        "id": 472,
+        "scriptName": "Timna Island 1.0.1",
+        "fileName": "timna_island_1.0.1",
+        "width": 20,
+        "height": 12
+      },
+      "first_chain": null
+    },
+    {
+      "id": "a78cfc6a84e957a279d4271197e9b297",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/a78cfc6a84e957a279d4271197e9b297__2026-11-17_17-19-35-694_Koom Valley 3 3.1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 24334,
+      "chains": 0,
+      "max_targets": 0,
+      "sha256": "62669b23e06c8228d0428ca69a8e3db37e5dc4140058d5dcda3cde68b10a5002",
+      "map": {
+        "id": 177,
+        "scriptName": "Koom Valley 3 3.1",
+        "fileName": "koom_valley_3_3.1",
+        "width": 24,
+        "height": 16
+      },
+      "first_chain": null
+    },
+    {
+      "id": "f38afc6a1d76179844468b1b6d25e846",
+      "path": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/replays/f38afc6a1d76179844468b1b6d25e846__2026-11-17_17-12-19-768_Archsimkats_Valley_V1_2026.09.03.sdfz",
+      "engine": "2026.09.03",
+      "game": "Beyond All Reason test-31986-603f15d",
+      "last_frame": 31007,
+      "chains": 7,
+      "max_targets": 2,
+      "sha256": "744dee59876c6ea4fce8708dde2f5c36655db84217a9dbe336095232286a64f9",
+      "map": {
+        "id": 127,
+        "scriptName": "Archsimkats_Valley_V1",
+        "fileName": "archsimkats_valley_v1",
+        "width": 16,
+        "height": 16
+      },
+      "first_chain": 20667
+    }
+  ],
+  "arms": [
+    "release",
+    "extended",
+    "pr8935"
+  ],
+  "finish": null,
+  "detail_start": -1,
+  "detail_end": -1,
+  "runner_sha256": "be8e4b34d138bf238fe2acb3576cbf307fa4db428145bbd1dabd99d04a1a5860",
+  "preparer_sha256": "21b17ecf79cd92ce583ede349ca66ad32583505211467f546289f92d3c5a9202",
+  "observer_sha256": "e482a84cf0a7e82bdae7b805fa6e734bbc3879fc3569b58a6066716d6370c145",
+  "probe": "function gadget:GetInfo()\n return {name=\"Matrix capabilities\", layer=-99999, enabled=true}\nend\nif not gadgetHandler:IsSyncedCode() then return end\nfunction gadget:Initialize()\n local c=Script.GetCallInList()\n Spring.Echo(\"MATRIX_CAPABILITIES\",type(Spring.RegisterCommand),c.UnitPreDelete~=nil,c.UnitAttackTargetRemoved~=nil)\n if VFS.FileExists(\"matrix_require_compact.lua\") then\n  assert(type(Spring.RegisterCommand)==\"function\" and c.UnitPreDelete and c.UnitAttackTargetRemoved,\"compact engine capabilities missing\")\n end\n gadgetHandler:RegisterUnitCommand(CMD.ANY)\nend\n",
+  "rapid_package_sha256": "7a53f994348387b865390cf33f7534f7364eba4fa22882c57fc195653587790c"
+}

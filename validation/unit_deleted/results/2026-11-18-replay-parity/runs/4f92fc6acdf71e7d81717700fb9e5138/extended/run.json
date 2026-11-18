@@ -1,0 +1,17 @@
+{
+  "replay": "4f92fc6acdf71e7d81717700fb9e5138",
+  "map": "SpeedMetal BAR V2",
+  "arm": "extended",
+  "finish": 22200,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/4f92fc6acdf71e7d81717700fb9e5138/base-repeat",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "bd72673c30325e59ba1b45b932dda5d45e1196a40bb39c35ed86936097b4e0fe",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958493.2628226,
+  "pid": 256422,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794958556.8171456
+}

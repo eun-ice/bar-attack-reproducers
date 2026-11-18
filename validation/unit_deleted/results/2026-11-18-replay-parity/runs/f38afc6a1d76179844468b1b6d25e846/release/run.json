@@ -1,0 +1,17 @@
+{
+  "replay": "f38afc6a1d76179844468b1b6d25e846",
+  "map": "Archsimkats_Valley_V1",
+  "arm": "release",
+  "finish": 30750,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/f38afc6a1d76179844468b1b6d25e846/base",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "0c7d8279577d1541e88f2bf7495418b0d1acfd2743c67e6bbf54a7430fd75948",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794959177.3958333,
+  "pid": 265651,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794959376.0710423
+}

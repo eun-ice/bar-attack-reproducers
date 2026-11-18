@@ -1,0 +1,1455 @@
+{
+  "completed_arms": 60,
+  "all_runs_fresh": true,
+  "comparison_summary": {
+    "engine": {
+      "equal": 20
+    },
+    "pr": {
+      "equal": 20
+    },
+    "total": {
+      "equal": 20
+    }
+  },
+  "checksum_warnings": {
+    "release": 0,
+    "extended": 0,
+    "pr8935": 0
+  },
+  "errors": [],
+  "recorded_sync_frames": 9836,
+  "recorded_sync_responses": 145241,
+  "sampled_state_event_frames": 3952,
+  "input_audit": [
+    {
+      "replay": "ff92fc6a457c252548e6ca313103d61d",
+      "identical_input_sha256": "b3c19c703be131617c6f7c1d0b3723ed4b8da7c4f6087a12e90e6bb85abae356",
+      "non_setup_packet_sha256": "51b0cb722b0881a006677ee6ab467c3ed63d889d1b3240b705aa72fd3672ce65",
+      "packets": 53647,
+      "sync_frames": 448,
+      "sync_responses": 896,
+      "first_sync_frame": 0,
+      "last_sync_frame": 26820,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "6890fc6a391ec6d61c24a9c5a7b4bd4f",
+      "identical_input_sha256": "e60f2a39aefd78325be502f45f27d2868a5d458b06ba65899613f958a7e55d5e",
+      "non_setup_packet_sha256": "01331e2f321a31e1cb4211f39df3cccfc42cf2d298073a21e94f61853c5bbda5",
+      "packets": 36006,
+      "sync_frames": 303,
+      "sync_responses": 909,
+      "first_sync_frame": 0,
+      "last_sync_frame": 18120,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "cd92fc6a0f02564782ac4735ca8116e0",
+      "identical_input_sha256": "cf664307fe97ec5477cc1bbb54b9b0139c88003b5786c2ff204ad97530b3f5c0",
+      "non_setup_packet_sha256": "09de523957f90cda89b94bf9adb7da1178426305dc310326d03f99f83f60e8f6",
+      "packets": 179495,
+      "sync_frames": 373,
+      "sync_responses": 8183,
+      "first_sync_frame": 0,
+      "last_sync_frame": 22320,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "6f90fc6a52c5aeb257d9dbd35093ee3f",
+      "identical_input_sha256": "c0afd09a47c8b632d89a85e3c98dc90f1da3596757bef3c72101d801aa0240da",
+      "non_setup_packet_sha256": "a995e655dfe7158e06bd7e8702341f106912ccf62b69bca09e63276bd1d9bdd8",
+      "packets": 312528,
+      "sync_frames": 603,
+      "sync_responses": 17173,
+      "first_sync_frame": 0,
+      "last_sync_frame": 36120,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "f98ffc6a593056499817d2c234a72076",
+      "identical_input_sha256": "54175129fb50f479764ed7848ff877adf9a39bd5046cdbdebf25f4cbe7c76a2d",
+      "non_setup_packet_sha256": "4988f6ab37b60f1b906acbf2fba904692827070b9e94bd0a1063761941840b71",
+      "packets": 199115,
+      "sync_frames": 453,
+      "sync_responses": 8630,
+      "first_sync_frame": 0,
+      "last_sync_frame": 27120,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "b28bfc6a4d2951af49de7f63e38b7192",
+      "identical_input_sha256": "766e44e8428f05f7a5cf7933ad1d1d10431df71943745bd4c198a69fdc002f29",
+      "non_setup_packet_sha256": "06169df240d47f38d472df0926bacb997bb292aedc2b555dfabc1e0b42373e7c",
+      "packets": 56312,
+      "sync_frames": 425,
+      "sync_responses": 1700,
+      "first_sync_frame": 0,
+      "last_sync_frame": 25440,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "5b8cfc6a5161931fd421ea32fe702b26",
+      "identical_input_sha256": "25296b6013396c693762e5dfeafdd4ff5ae4361b2339991affefa4544e4151aa",
+      "non_setup_packet_sha256": "c4d94910828d9531a94dacde0341f9a4b0ef71894b1e78d890f94178d6304b1f",
+      "packets": 540946,
+      "sync_frames": 1245,
+      "sync_responses": 24693,
+      "first_sync_frame": 0,
+      "last_sync_frame": 74640,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "7293fc6a02d557943cb05906274c9bd0",
+      "identical_input_sha256": "66c092f3f13a51655b6c197120b43da1e74425a851ac407fb0006e1a5d5675d9",
+      "non_setup_packet_sha256": "dec7c760bb80215682c16ba7e401c0d7e3c933ccb307ebb3c23164f0dc48fc31",
+      "packets": 237196,
+      "sync_frames": 343,
+      "sync_responses": 15577,
+      "first_sync_frame": 0,
+      "last_sync_frame": 20520,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "9792fc6adf43c8e700367e7f4cd6c790",
+      "identical_input_sha256": "7e900a47d05c2e5ea14bc662f8a51cbfc041d8eadb7a15d035dd1025855d934d",
+      "non_setup_packet_sha256": "29d95c2ff4b1de7dea49b67bb0f6f5f24e9cfd9111b8d7f2b7d17ae61ce781f5",
+      "packets": 100863,
+      "sync_frames": 358,
+      "sync_responses": 3174,
+      "first_sync_frame": 0,
+      "last_sync_frame": 21420,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "4f92fc6acdf71e7d81717700fb9e5138",
+      "identical_input_sha256": "a75635d371feb742a800b6eaa5d455673ca7f0647a6b3defc74568e3e2dccb87",
+      "non_setup_packet_sha256": "ce7e3304f9c157af0223b5ad8ebf6d632a431eb5a0bc3dbee83fde6e77a87a7c",
+      "packets": 54836,
+      "sync_frames": 370,
+      "sync_responses": 740,
+      "first_sync_frame": 0,
+      "last_sync_frame": 22140,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "ce91fc6aea4b932d1afa8e1044f54a51",
+      "identical_input_sha256": "d6dc410b790a4bae3b5a9a702f5635076317b8c5734bc462e87738d4c74f7743",
+      "non_setup_packet_sha256": "5db07188b9e63022338a7d5362849238d8c836ed6ab70ab092d5555fa9d39f9d",
+      "packets": 134891,
+      "sync_frames": 608,
+      "sync_responses": 4444,
+      "first_sync_frame": 0,
+      "last_sync_frame": 36420,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "cd90fc6ad8e7eec3fbd7e03daa9f7f72",
+      "identical_input_sha256": "eced596a6c9feaaaffad4f1dff861b26cfbca76d6f9d6c71b8d83577856a35eb",
+      "non_setup_packet_sha256": "4275877650f72ab2aa7ca11fe62813d0914f14634b948b05d65718faaf095e3d",
+      "packets": 133557,
+      "sync_frames": 375,
+      "sync_responses": 4371,
+      "first_sync_frame": 0,
+      "last_sync_frame": 22440,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "3690fc6ae4bb62dab230b3f50328d3a6",
+      "identical_input_sha256": "babc337f06cc33542eed523b215a06186f9fd87ccda02411c8025e2bc0d5af4d",
+      "non_setup_packet_sha256": "5dab604fd495de13fb59a1dc314f4f04403ac4ddc5d93f043e3a8968617cd6ec",
+      "packets": 47438,
+      "sync_frames": 408,
+      "sync_responses": 816,
+      "first_sync_frame": 0,
+      "last_sync_frame": 24420,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "2c8ffc6a0c7f88b9c8f596a02ef0c523",
+      "identical_input_sha256": "8f8c0a0d140b15c1e2a9cbe22c02d73581f25f7c1849f21698d9b5521add661c",
+      "non_setup_packet_sha256": "c84214eaf41060f4df4b2bc953d79195589d71263d0fe2430fd0b40c409d3ce7",
+      "packets": 316733,
+      "sync_frames": 565,
+      "sync_responses": 21120,
+      "first_sync_frame": 0,
+      "last_sync_frame": 33840,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "d18efc6af2c49b59f250b441b8d33014",
+      "identical_input_sha256": "70d7a4a9c8301481e776a671f71e642bafb956099d88c9c2f1b2787e1516a131",
+      "non_setup_packet_sha256": "64b5fd87f3e5b4566d2f906f85a2c3d065fa801180d8e65eeefe25e75369c5ae",
+      "packets": 265833,
+      "sync_frames": 585,
+      "sync_responses": 12327,
+      "first_sync_frame": 0,
+      "last_sync_frame": 35040,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "688efc6a63a2f58ad834c13cb7faa6c4",
+      "identical_input_sha256": "231f8dbeaacf73db5b4606055ff5f28824091166d9992e7c2a92d29255681aa7",
+      "non_setup_packet_sha256": "b15c7420b41dc9bc49272c1604a7857f635601e24513191834e5c9ff90018487",
+      "packets": 51573,
+      "sync_frames": 485,
+      "sync_responses": 970,
+      "first_sync_frame": 0,
+      "last_sync_frame": 29040,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "f38dfc6a8325a8ba364f5352a6ec459e",
+      "identical_input_sha256": "7aa2eb15e7f77bfac92028b5564e5b955f245233de2f2229f6c16a8acd1616a3",
+      "non_setup_packet_sha256": "2b0632a70d01734328f371af0b2ac2eed31bc856a4a1bf4adb28caf63feb4c0d",
+      "packets": 195562,
+      "sync_frames": 478,
+      "sync_responses": 7644,
+      "first_sync_frame": 0,
+      "last_sync_frame": 28620,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "048dfc6a1dd184beb68ed33b1663873f",
+      "identical_input_sha256": "526a42d3c953514ca0c4766d6bc0ef7dde74d0192a3bb2cd2b38e56f600cc688",
+      "non_setup_packet_sha256": "6a46dc7fc71d745fb108d234d7f3f2959582139236923cf0cf3c5df1447346eb",
+      "packets": 144608,
+      "sync_frames": 495,
+      "sync_responses": 4440,
+      "first_sync_frame": 0,
+      "last_sync_frame": 29640,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "a78cfc6a84e957a279d4271197e9b297",
+      "identical_input_sha256": "53d861c6ce6bd207a4d9bd269c0a63bc322594ee51a0bbc87b468f36711fd2da",
+      "non_setup_packet_sha256": "9c5776b61eb6491852f96878338b9be52cf32978946bab3765d7fbe74614c3b8",
+      "packets": 46523,
+      "sync_frames": 403,
+      "sync_responses": 806,
+      "first_sync_frame": 0,
+      "last_sync_frame": 24120,
+      "recorded_checksum_conflicts": []
+    },
+    {
+      "replay": "f38afc6a1d76179844468b1b6d25e846",
+      "identical_input_sha256": "b610b39970498bae1f82eff5c3f6071b0f9d6132e4ac9b6c11de8a0389056aa1",
+      "non_setup_packet_sha256": "7815f46021b86299605f1bd8f1cdc4218e71fc7e6e6fe28a36fdcf8ec6cd623d",
+      "packets": 186709,
+      "sync_frames": 513,
+      "sync_responses": 6628,
+      "first_sync_frame": 0,
+      "last_sync_frame": 30720,
+      "recorded_checksum_conflicts": []
+    }
+  ],
+  "rows": [
+    {
+      "replay": "048dfc6a1dd184beb68ed33b1663873f",
+      "map": "Timna Island 1.0.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 29700,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 29700,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 29700,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 199,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 199,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 199,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "2c8ffc6a0c7f88b9c8f596a02ef0c523",
+      "map": "All That Glitters v2.2.3",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 33900,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 33900,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 33900,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 227,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 227,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 227,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "3690fc6ae4bb62dab230b3f50328d3a6",
+      "map": "Koom Valley 3 3.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 24450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 24450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 24450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 164,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 164,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 164,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "4f92fc6acdf71e7d81717700fb9e5138",
+      "map": "SpeedMetal BAR V2",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 22200,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 22200,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 22200,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 149,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 149,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 149,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "5b8cfc6a5161931fd421ea32fe702b26",
+      "map": "Supreme Isthmus v2.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 74700,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 74700,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 74700,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 499,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 499,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 499,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "688efc6a63a2f58ad834c13cb7faa6c4",
+      "map": "Tumult Remake v1.0.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 29100,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 29100,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 29100,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 195,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 195,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 195,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "6890fc6a391ec6d61c24a9c5a7b4bd4f",
+      "map": "Comet Catcher Remake 1.8",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 18150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 18150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 18150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 122,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 122,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 122,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "6f90fc6a52c5aeb257d9dbd35093ee3f",
+      "map": "Supreme Isthmus v2.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 36150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 36150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 36150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 242,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 242,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 242,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "7293fc6a02d557943cb05906274c9bd0",
+      "map": "Melting Glacier v1.1.2",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 20550,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 20550,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 20550,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 138,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 138,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 138,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "9792fc6adf43c8e700367e7f4cd6c790",
+      "map": "TitanDuel_V3",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 21450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 21450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 21450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 144,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 144,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 144,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "a78cfc6a84e957a279d4271197e9b297",
+      "map": "Koom Valley 3 3.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 24150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 24150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 24150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 162,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 162,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 162,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "b28bfc6a4d2951af49de7f63e38b7192",
+      "map": "Comet Catcher Remake 1.8",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 25500,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 25500,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 25500,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 171,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 171,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 171,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "cd90fc6ad8e7eec3fbd7e03daa9f7f72",
+      "map": "Incandescence Remake 3.3.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 22500,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 22500,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 22500,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 151,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 151,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 151,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "cd92fc6a0f02564782ac4735ca8116e0",
+      "map": "Supreme Isthmus v2.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 22350,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 22350,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 22350,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 150,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 150,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 150,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "ce91fc6aea4b932d1afa8e1044f54a51",
+      "map": "Eye Of Horus 1.7.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 36450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 36450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 36450,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 244,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 244,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 244,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "d18efc6af2c49b59f250b441b8d33014",
+      "map": "Supreme Isthmus v2.1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 35100,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 35100,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 35100,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 235,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 235,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 235,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "f38afc6a1d76179844468b1b6d25e846",
+      "map": "Archsimkats_Valley_V1",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 30750,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 30750,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 30750,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 206,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 206,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 206,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "f38dfc6a8325a8ba364f5352a6ec459e",
+      "map": "All That Glitters v2.2.3",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 28650,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 28650,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 28650,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 192,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 192,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 192,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "f98ffc6a593056499817d2c234a72076",
+      "map": "All That Glitters v2.2.3",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 27150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 27150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 27150,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 182,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 182,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 182,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    },
+    {
+      "replay": "ff92fc6a457c252548e6ca313103d61d",
+      "map": "Onyx Cauldron 2.2.2",
+      "arms": {
+        "release": {
+          "complete": true,
+          "finish": 26850,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "extended": {
+          "complete": true,
+          "finish": 26850,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        },
+        "pr8935": {
+          "complete": true,
+          "finish": 26850,
+          "coverage": {
+            "observations": 0,
+            "max_targets": 0,
+            "multi_target_exercised": false
+          },
+          "exit_code": 0,
+          "lua_errors": false,
+          "recorded_checksum_warnings": 0
+        }
+      },
+      "engine": {
+        "result": "equal",
+        "samples": 180,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "pr": {
+        "result": "equal",
+        "samples": 180,
+        "first_state_difference": null,
+        "first_event_difference": null
+      },
+      "total": {
+        "result": "equal",
+        "samples": 180,
+        "first_state_difference": null,
+        "first_event_difference": null
+      }
+    }
+  ],
+  "limits": [
+    "Native replay command packets remain unchanged in all three arms.",
+    "Engine checksums compared against recorded sync responses, not exported for every frame.",
+    "Physical state sampled every 150 frames; damage/deletion events accumulated continuously.",
+    "LuaUI disabled; each observation ends 150\u2013299 frames before the recording ends.",
+    "This does not validate newly generated compact command inputs or live UI gestures."
+  ]
+}

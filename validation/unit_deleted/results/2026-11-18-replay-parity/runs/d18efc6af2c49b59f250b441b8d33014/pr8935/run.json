@@ -1,0 +1,17 @@
+{
+  "replay": "d18efc6af2c49b59f250b441b8d33014",
+  "map": "Supreme Isthmus v2.1",
+  "arm": "pr8935",
+  "finish": 35100,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/d18efc6af2c49b59f250b441b8d33014/pr-controller",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "bd72673c30325e59ba1b45b932dda5d45e1196a40bb39c35ed86936097b4e0fe",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958732.4761746,
+  "pid": 260559,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794959433.108619
+}

@@ -1,0 +1,17 @@
+{
+  "replay": "cd90fc6ad8e7eec3fbd7e03daa9f7f72",
+  "map": "Incandescence Remake 3.3.1",
+  "arm": "release",
+  "finish": 22500,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/cd90fc6ad8e7eec3fbd7e03daa9f7f72/base",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "0c7d8279577d1541e88f2bf7495418b0d1acfd2743c67e6bbf54a7430fd75948",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958556.8196461,
+  "pid": 257727,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794958660.409437
+}

@@ -1,0 +1,26 @@
+20 replay / three-arm parity rerun — 2026-11-18
+
+Fresh completed runs: 60/60
+Comparisons: {'engine': {'equal': 20}, 'pr': {'equal': 20}, 'total': {'equal': 20}}
+Recorded-checksum warnings: {'release': 0, 'extended': 0, 'pr8935': 0}
+Run errors: []
+Recorded sync checkpoints: 9836
+Recorded sync response packets: 145241
+State/event sample frames per arm across all replays: 3952
+
+A: official release 2026.09.03 + recorded BAR.
+B: release 2026.09.03 + #3431 + corrected #3454 + recorded BAR (#3348 already in release).
+C: same engine as B + #8935 historical replay runtime, including cap128 and parity ordering patch.
+Parity branch: 1f3cd9b9b8; engine binary: engines/predelete-v2/spring-headless.
+Engine binaries, base archives and runtime verified against frozen provenance before execution.
+All three arms use byte-identical prepared replays; all non-setup packet bytes equal the original recordings.
+Temporary game/asset overlays removed; logs, hashes and provenance retained.
+
+Limits:
+Native replay command packets remain unchanged in all three arms.
+Engine checksums compared against recorded sync responses, not exported for every frame.
+Physical state sampled every 150 frames; damage/deletion events accumulated continuously.
+LuaUI disabled; each observation ends 150–299 frames before the recording ends.
+This does not validate newly generated compact command inputs or live UI gestures.
+
+OpenAI Codex assisted execution and analysis.

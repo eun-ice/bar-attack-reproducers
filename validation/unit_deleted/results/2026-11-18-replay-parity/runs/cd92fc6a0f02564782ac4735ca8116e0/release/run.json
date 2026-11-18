@@ -1,0 +1,17 @@
+{
+  "replay": "cd92fc6a0f02564782ac4735ca8116e0",
+  "map": "Supreme Isthmus v2.1",
+  "arm": "release",
+  "finish": 22350,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/cd92fc6a0f02564782ac4735ca8116e0/base",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "0c7d8279577d1541e88f2bf7495418b0d1acfd2743c67e6bbf54a7430fd75948",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794957920.1029198,
+  "pid": 244780,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794958130.7998374
+}

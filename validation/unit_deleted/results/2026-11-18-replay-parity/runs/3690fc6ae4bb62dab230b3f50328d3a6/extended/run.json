@@ -1,0 +1,17 @@
+{
+  "replay": "3690fc6ae4bb62dab230b3f50328d3a6",
+  "map": "Koom Valley 3 3.1",
+  "arm": "extended",
+  "finish": 24450,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/3690fc6ae4bb62dab230b3f50328d3a6/base-repeat",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "bd72673c30325e59ba1b45b932dda5d45e1196a40bb39c35ed86936097b4e0fe",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958627.3834898,
+  "pid": 258928,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794958697.9422202
+}

@@ -1,0 +1,17 @@
+{
+  "replay": "b28bfc6a4d2951af49de7f63e38b7192",
+  "map": "Comet Catcher Remake 1.8",
+  "arm": "release",
+  "finish": 25500,
+  "directory": "/home/aron/Projects/bar/attack-comparison/current-release-20261117/parity-final-20-20261118/b28bfc6a4d2951af49de7f63e38b7192/base",
+  "detail_start": -1,
+  "detail_end": -1,
+  "engine_sha256": "0c7d8279577d1541e88f2bf7495418b0d1acfd2743c67e6bbf54a7430fd75948",
+  "complete": true,
+  "exit_code": 0,
+  "lua_errors": false,
+  "started": 1794958005.693829,
+  "pid": 247248,
+  "recorded_checksum_warnings": 0,
+  "finished": 1794958068.2420602
+}
